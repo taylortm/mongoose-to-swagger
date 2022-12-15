@@ -1,6 +1,7 @@
 {
   "name": "mongoose-to-swagger",
   "version": "1.5.0",
+  "type": "module",
   "description": "Conversion library for transforming Mongoose schema objects into Swagger schema definitions.",
   "homepage": "",
   "author": {
@@ -36,7 +37,7 @@
     "ts-node": "8.4.1",
     "typescript": "4.2.3"
   },
-  "repository": "giddyinc/mongoose-to-swagger",
+  "repository": "taylortm/mongoose-to-swagger",
   "scripts": {
     "clean": "rm -rf .nyc_output dist",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
